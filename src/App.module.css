@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  padding-top: 105px;
+  padding-bottom: 50px;
+  padding-left: 10vh;
+  text-align: center;
+}

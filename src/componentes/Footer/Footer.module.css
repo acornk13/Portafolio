@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(106, 114, 107);
+    padding: 5px;
+    border-top: 2px solid #ddd;
+}
+
+.texto {
+    font-size: 80%;
+    color: #a4d1a8;
+}
