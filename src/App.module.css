@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.img {
+    width: 30vh;
+    height: 30vh;
+}
+
 .contenedor {
   display: flex;
   justify-content: center;

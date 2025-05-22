@@ -1,8 +1,10 @@
+import styles from "../App.module.css";
+
 function Home() {
     return (
         <div>
             <h1>Introducción</h1>
-            <img src="avatar.jpeg" alt="foto mia" />
+            <img className={styles.img} src="avatar.jpeg" alt="foto mia" />
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget varius neque. Maecenas et risus 
                 ut arcu tempus volutpat eu ut massa. Phasellus ornare porttitor lorem. Vestibulum ac tempus tortor, 
                 at dictum ligula. Donec vel erat nec diam tempus tincidunt. Mauris dignissim interdum sapien quis viverra. 
